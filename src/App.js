@@ -13,7 +13,7 @@ function App() {
     <div className="app">
       <Router>
         <Switch>
-          <Route>
+          <Route path="/">
             <Login />
           </Route>
         </Switch>
