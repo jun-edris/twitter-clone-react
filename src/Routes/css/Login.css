@@ -1,0 +1,16 @@
+.login {
+    margin: 0;
+    padding: 0;
+    background-color: #15202B;
+    font-size: 15px;
+}
+
+.container_login {
+    margin: 0 auto;
+    width: 1080px;
+    padding: 1em;
+}
+
+.twitter-logo {
+    width: 70.25px;
+}

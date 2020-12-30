@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
 
+import './css/Login.css';
 function Login() {
     return (
-        <div>
-            <h1>Hi</h1>
+        <div className="login">
+            <div className="container_login">
+                <div className="div_logo">
+                    
+                </div>
+            </div>
         </div>
     )
 }
