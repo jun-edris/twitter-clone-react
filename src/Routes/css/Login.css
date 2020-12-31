@@ -2,15 +2,167 @@
     margin: 0;
     padding: 0;
     background-color: #15202B;
-    font-size: 15px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    overscroll-behavior-y: none;
 }
 
 .container_login {
-    margin: 0 auto;
-    width: 1080px;
-    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.twitter-logo {
-    width: 70.25px;
+.login_text_side {
+    flex: 0.5;
+    padding: 15px;
+    background-color: #74CAFE;
+    position: relative;
+    overflow: hidden;
 }
+
+.login_text_side .login_description {
+    align-self: center;
+    
+}
+.login_auth_side {
+    flex: 0.5;
+    padding: 15px;
+}
+
+.login_footer {
+    color: #8899A6;
+    padding: 10px 15px;
+    margin: 0 40px;
+}
+
+.login_footer ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.login_footer ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.login_footer ul li {
+    display: flex;
+    padding-right: 15px;
+    margin: 5px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_footer ul li .links, .login_footer ul li {
+    text-decoration: none;
+    color: #8899A6;
+    font-size: 13px;
+    
+}
+/* .container_login {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row: 8vh 2vh;
+}
+
+.login_text_side {
+    grid-area: left_side;
+    background-color: #74CAFE;
+    position: relative;
+    overflow: hidden;
+    height: 88.4vh;
+    padding: 15px;
+}
+
+.login_auth_side {
+    grid-area: right_side;
+}
+
+.login_footer {
+    grid-area: footer;
+}
+
+.container_login {
+    grid-template-areas: 
+        "left_side right_side"
+        "footer footer";
+}
+
+.twitter_logo {
+    background-color: transparent;
+    color: #1DA1F2;
+    top: -30vh;
+    right: -50vh;
+    font-size: 155vh;
+    position: absolute;
+    object-fit: contain;
+}
+
+.login_description {
+    position: absolute;
+    z-index: 999;
+    padding: 0 15px 0 15px;
+    left: 23%;
+    top: 30%;
+    max-width: 380px;
+}
+
+.sentences {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.sentences h2{
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.description_logos {
+    font-size: 2em;
+    margin-right: 15px;
+}
+
+.description_logos, h2 {
+    color: white;
+}
+
+.login_footer {
+    color: #8899A6;
+    padding: 10px 15px;
+}
+
+.login_footer ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    flex: 1;
+}
+.login_footer ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.login_footer ul li {
+    display: flex;
+    padding-right: 15px;
+    margin: 5px 0;
+    justify-content: center;
+    align-items: center;
+}
+.login_footer ul li .links {
+    text-decoration: none;
+    color: #8899A6;
+    font-size: 13px;
+    
+}
+ */
