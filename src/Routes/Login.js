@@ -13,7 +13,11 @@ import { MdPeopleOutline } from "react-icons/md";
 import { FiSearch } from "react-icons/fi";
 import { BsChat } from "react-icons/bs";
 import './css/Login.css';
+import SignUp from '../Modal/SignUp';
+
 function Login() {
+    const [show, setShow] = useState(false);
+    
     return (
         <div className="login">
             <div className="container">
@@ -51,7 +55,8 @@ function Login() {
                 </div>
             </div>
             <div className="login_buttons">
-                <button>Sign up</button>
+                <button onClick={() => setShow(true)}>Sign up</button>
+                <SignUp show={show}/>
                 <button>Log in</button>
             </div>
             <div className="login_footer">
