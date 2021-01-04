@@ -1,6 +1,10 @@
 import React from 'react'
 import { FaTwitter } from "react-icons/fa";
 const SignUp = props => {
+    if(!props.show) {
+        return null
+    }
+    
     return (
         <div className="modal">
             <div className="modal-content">
