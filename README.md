@@ -1,3 +1,23 @@
+# Twitter CLONE using React JS and Firebase(EDUCATIONAL PURPOSE ONLY)
+
+
+## This project is intended for educational purpose only. Everything that I copied are being used respectfully. I do not claim any design, layout or content to whatever I used in this project.
+
+I am a student and this project will be my training ground as this is my first project to be created here in Github. I will be glad to be advised and learn from the developers here in Github.
+
+## This project is being created using:
+
+1. React JS
+2. Firebase
+
+( Hopely be added some frameworks or anything for it to be done sooner with the help of you guys :) )
+
+### Help from you will be great for me to learn and to become a developer soon.
+
+I am open for suggestions and advices.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
