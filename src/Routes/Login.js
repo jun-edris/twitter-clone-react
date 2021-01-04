@@ -1,4 +1,3 @@
-// TODO: Finish up the design
 // TODO: Connect the app to the firebase
 // TODO: Create an authentication using firebase
 
